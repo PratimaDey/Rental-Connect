@@ -39,6 +39,9 @@ export default function SidebarRenter({ onLogout, onSelect }) {
       <button style={buttonStyle} onClick={() => onSelect("wishlist")}>
         ❤️ Wishlist
       </button>
+      <button style={buttonStyle} onClick={() => onSelect("messages")}>
+        💬 Messages
+      </button>
       <button style={logoutStyle} onClick={onLogout}>
         🚪 Logout
       </button>

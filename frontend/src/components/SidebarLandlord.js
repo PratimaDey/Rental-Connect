@@ -39,6 +39,10 @@ export default function SidebarLandlord({ onLogout, onSelect }) {
       <button style={buttonStyle} onClick={() => onSelect("rentDetails")}>
         📄 Rent Details & Dues
       </button>
+      <button style={buttonStyle} onClick={() => onSelect("messages")}>
+  💬 Messages
+</button>
+
       <button style={logoutStyle} onClick={onLogout}>
         🚪 Logout
       </button>
